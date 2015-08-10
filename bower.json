@@ -1,0 +1,24 @@
+{
+  "name": "font-awesome-rtl",
+  "version": "1.0.0",
+  "description": "Make font-awesome play nicely on right-to-left websites",
+  "main": "font-awesome-rtl.css",
+  "keywords": [
+    "font-awesome",
+    "rtl",
+    "font-awesome-rtl"
+  ],
+  "authors": [
+    "Greg Roach",
+    "<fisharebest@gmail.com> (fisharebest@gmail.com)"
+  ],
+  "license": "MIT",
+  "homepage": "http://fisharebest.github.io/font-awesome-rtl/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
