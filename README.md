@@ -1,6 +1,6 @@
 # font-awesome-rtl
 
-Make font-awesome play nicely on right-to-left websites
+A fork of [font-awesome-rtl](https://github.com/fisharebest/font-awesome-rtl) to add support for font-awesome from 3.2 up 4.4 and register font-awesome-rtl on bower
 
 [Demo](https://fisharebest.github.io/font-awesome-rtl)
 
@@ -12,28 +12,30 @@ Make font-awesome play nicely on right-to-left websites
 
 # What is supported
 
+All features of the original font-awesome-rtl (https://github.com/fisharebest/font-awesome-rtl) and more...
+
 ## Reversible glyphs are reversed:
 
 ```html
-<i class="fa fa-bullhorn"></i> points left-to-right
+<i class="icon icon-bullhorn"></i> points left-to-right
 <i class="fa fa-star-half"></i> left half of a star
 <div dir="rtl">
-	<i class="fa fa-bullhorn"></i> points right-to-left
-	<i class="fa fa-star-half"></i> right half of a star
+	<i class="icon icon-bullhorn"></i> points right-to-left
+	<i class="fa fa-bullhorn"></i> right half of a star
 </div>
 ```
 
 ## List icons appear in the correct place
 
 ```html
-<ul class="fa-ul">
-	<li><i class="fa-li fa fa-check-square"></i> Check!
-	<li><i class="fa-li fa fa-spinner fa-spin"></i> Spins clockwise
+<ul class="icon-list-ul">
+	<li><i class="icon-list-li">test</i>
+	<li><i class="fa-list-li fa fa-spinner fa-spin"></i> Spins clockwise
 </ul>
 <div dir="rtl">
-	<ul class="fa-ul">
-		<li><i class="fa-li fa fa-check-square"></i> Check!
-		<li><i class="fa-li fa fa-spinner fa-spin"></i> Spins anti-clockwise
+	<ul class="fa-list-ul">
+		<li><i class="icon-list-li"></i> Check!
+		<li><i class="fa-list-li fa fa-spinner fa-spin"></i> Spins anti-clockwise
 	</ul>
 </div>
 ```
@@ -42,13 +44,13 @@ Make font-awesome play nicely on right-to-left websites
 
 ```html
 <i class="fa fa-chevron-right"></i> points left-to-right
-<i class="fa fa-chevron-left"></i> points right-to-left
-<i class="fa fa-chevron-end"></i> points left-to-right
-<i class="fa fa-chevron-start"></i> points right-to-left
+<i class="icon icon-chevron-left"></i> points right-to-left
+<i class="fa fa-chevron-right"></i> points left-to-right
+<i class="icon icon-chevron-left"></i> points right-to-left
 <div dir="rtl">
 	<i class="fa fa-chevron-right"></i> points left-to-right
-	<i class="fa fa-chevron-left"></i> points right-to-left
-	<i class="fa fa-chevron-end"></i> points right-to-left
-	<i class="fa fa-chevron-start"></i> points left-to-right
+	<i class="icon icon-chevron-left"></i> points right-to-left
+	<i class="fa fa-chevron-right"></i> points right-to-left
+	<i class="icon icon-chevron-left"></i> points left-to-right
 </div>
 ```
